@@ -1,0 +1,29 @@
+.slider {
+	position: relative;left: 15px;top: 15px; z-index:1;
+	display: block;
+	width:567px;
+	height:567px;
+	overflow:visible!important;
+	
+}
+
+.slider > .pic, .slider > .pic > .mask, .slider > .pic > .mask > div{border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%;}
+
+.items {
+    display: none;
+    
+}
+
+.sprev{ display:block; width:34px; height:33px; position:absolute; right:53px; top:273px; z-index:9999;
+transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
+}
+.sprev .over1{display: block; width: 100%; height: 100%; background: url(../images/pag.png) 0 0 no-repeat; position: absolute; left: 0; top: 0; z-index: 1;}
+.sprev .over2{display: block; width: 100%; height: 100%; background: url(../images/prev.png) center center no-repeat; position: absolute; left: 0; top: 0; z-index: 2;}
+
+.snext{ display:block; width:34px; height:33px; position:absolute; right:16px; top:273px; z-index:9999;
+transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
+}
+.snext .over1{display: block; width: 100%; height: 100%; background: url(../images/pag.png) 0 0 no-repeat; position: absolute; left: 0; top: 0; z-index: 1;}
+.snext .over2{display: block; width: 100%; height: 100%; background: url(../images/next.png) center center no-repeat; position: absolute; left: 0; top: 0; z-index: 2;}
+
+
